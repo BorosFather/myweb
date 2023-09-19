@@ -1,18 +1,39 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nav</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  
+  <section>
 
-<section>
-    <ul class="nav justify-content-center">
-        <li class="nav-item">
-          <a routerLink="/home" class="nav-link" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a routerLink="/project" class="nav-link" href="#">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a routerLink="/modell" class="nav-link" href="#">Modells</a>
-        </li>
-        <li class="nav-item">
-          <a routerLink="/about" class="nav-link" href="#">About</a>
-        </li>
-      </ul>
     
+
+    <header class="header">
+
+      <a href="#" class="logo">LOGO</a>
+
+      <input type="checkbox" id="check">
+      <label for="check" class="icon">
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <i class='bx bx-x' id="close-icon"></i>
+      </label>
+
+      <nav class="nav">
+        <a routerLink="/home" style="--i:0;">Home</a>
+        <a routerLink="/project" style="--i:1;">Project</a>
+        <a routerLink="/modell" style="--i:2;">Modells</a>
+        <a routerLink="#" style="--i:3;">Games</a>
+        <a routerLink="/about" style="--i:4;">About</a>
+    </nav>
+    </header>
+
 </section>
+
+</body>
+</html>
+
+
