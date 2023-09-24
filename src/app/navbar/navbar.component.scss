@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
 .header {
@@ -56,6 +59,13 @@
     text-decoration: none;
     font-weight: 500;
     margin-left: 2.5rem;
+    cursor: pointer;
+    transition: .3s;
+    
+}
+
+.nav a:hover {
+    color:aqua
 }
 
 #check {
